@@ -1,0 +1,1 @@
+Folder for the VST or CLAP SDKs.
