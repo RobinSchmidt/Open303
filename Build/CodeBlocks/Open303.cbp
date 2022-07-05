@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Open303" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin\Debug\Open303" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj\Debug\" />
+				<Option type="3" />
+				<Option compiler="gcc" />
+				<Option createDefFile="1" />
+				<Option createStaticLib="1" />
+				<Compiler>
+					<Add option="-Wall" />
+					<Add option="-DBUILD_DLL" />
+					<Add option="-g" />
+				</Compiler>
+				<Linker>
+					<Add library="user32" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin\Release\Open303" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj\Release\" />
+				<Option type="3" />
+				<Option compiler="gcc" />
+				<Option createDefFile="1" />
+				<Option createStaticLib="1" />
+				<Compiler>
+					<Add option="-fexpensive-optimizations" />
+					<Add option="-O3" />
+					<Add option="-Wall" />
+					<Add option="-DBUILD_DLL" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add library="user32" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add directory="..\..\Libraries\vstsdk2.4" />
+		</Compiler>
+		<Unit filename="..\..\Libraries\vstsdk2.4\pluginterfaces\vst2.x\aeffect.h" />
+		<Unit filename="..\..\Libraries\vstsdk2.4\pluginterfaces\vst2.x\aeffectx.h" />
+		<Unit filename="..\..\Libraries\vstsdk2.4\pluginterfaces\vst2.x\vstfxstore.h" />
+		<Unit filename="..\..\Libraries\vstsdk2.4\public.sdk\source\vst2.x\aeffeditor.h" />
+		<Unit filename="..\..\Libraries\vstsdk2.4\public.sdk\source\vst2.x\audioeffect.cpp" />
+		<Unit filename="..\..\Libraries\vstsdk2.4\public.sdk\source\vst2.x\audioeffect.h" />
+		<Unit filename="..\..\Libraries\vstsdk2.4\public.sdk\source\vst2.x\audioeffectx.cpp" />
+		<Unit filename="..\..\Libraries\vstsdk2.4\public.sdk\source\vst2.x\audioeffectx.h" />
+		<Unit filename="..\..\Libraries\vstsdk2.4\public.sdk\source\vst2.x\vstplugmain.cpp" />
+		<Unit filename="..\..\Source\DSPCode\GlobalDefinitions.h" />
+		<Unit filename="..\..\Source\DSPCode\GlobalFunctions.cpp" />
+		<Unit filename="..\..\Source\DSPCode\GlobalFunctions.h" />
+		<Unit filename="..\..\Source\DSPCode\fft4g.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\Source\DSPCode\rosic_AcidPattern.cpp" />
+		<Unit filename="..\..\Source\DSPCode\rosic_AcidPattern.h" />
+		<Unit filename="..\..\Source\DSPCode\rosic_AcidSequencer.cpp" />
+		<Unit filename="..\..\Source\DSPCode\rosic_AcidSequencer.h" />
+		<Unit filename="..\..\Source\DSPCode\rosic_AnalogEnvelope.cpp" />
+		<Unit filename="..\..\Source\DSPCode\rosic_AnalogEnvelope.h" />
+		<Unit filename="..\..\Source\DSPCode\rosic_BiquadFilter.cpp" />
+		<Unit filename="..\..\Source\DSPCode\rosic_BiquadFilter.h" />
+		<Unit filename="..\..\Source\DSPCode\rosic_BlendOscillator.cpp" />
+		<Unit filename="..\..\Source\DSPCode\rosic_BlendOscillator.h" />
+		<Unit filename="..\..\Source\DSPCode\rosic_Complex.cpp" />
+		<Unit filename="..\..\Source\DSPCode\rosic_Complex.h" />
+		<Unit filename="..\..\Source\DSPCode\rosic_DecayEnvelope.cpp" />
+		<Unit filename="..\..\Source\DSPCode\rosic_DecayEnvelope.h" />
+		<Unit filename="..\..\Source\DSPCode\rosic_EllipticQuarterBandFilter.cpp" />
+		<Unit filename="..\..\Source\DSPCode\rosic_EllipticQuarterBandFilter.h" />
+		<Unit filename="..\..\Source\DSPCode\rosic_FourierTransformerRadix2.cpp" />
+		<Unit filename="..\..\Source\DSPCode\rosic_FourierTransformerRadix2.h" />
+		<Unit filename="..\..\Source\DSPCode\rosic_FunctionTemplates.cpp" />
+		<Unit filename="..\..\Source\DSPCode\rosic_FunctionTemplates.h" />
+		<Unit filename="..\..\Source\DSPCode\rosic_LeakyIntegrator.cpp" />
+		<Unit filename="..\..\Source\DSPCode\rosic_LeakyIntegrator.h" />
+		<Unit filename="..\..\Source\DSPCode\rosic_MidiNoteEvent.cpp" />
+		<Unit filename="..\..\Source\DSPCode\rosic_MidiNoteEvent.h" />
+		<Unit filename="..\..\Source\DSPCode\rosic_MipMappedWaveTable.cpp" />
+		<Unit filename="..\..\Source\DSPCode\rosic_MipMappedWaveTable.h" />
+		<Unit filename="..\..\Source\DSPCode\rosic_NumberManipulations.cpp" />
+		<Unit filename="..\..\Source\DSPCode\rosic_NumberManipulations.h" />
+		<Unit filename="..\..\Source\DSPCode\rosic_OnePoleFilter.cpp" />
+		<Unit filename="..\..\Source\DSPCode\rosic_OnePoleFilter.h" />
+		<Unit filename="..\..\Source\DSPCode\rosic_Open303.cpp" />
+		<Unit filename="..\..\Source\DSPCode\rosic_Open303.h" />
+		<Unit filename="..\..\Source\DSPCode\rosic_RealFunctions.cpp" />
+		<Unit filename="..\..\Source\DSPCode\rosic_RealFunctions.h" />
+		<Unit filename="..\..\Source\DSPCode\rosic_TeeBeeFilter.cpp" />
+		<Unit filename="..\..\Source\DSPCode\rosic_TeeBeeFilter.h" />
+		<Unit filename="..\..\Source\VSTPlugIn\Open303VST.cpp" />
+		<Unit filename="..\..\Source\VSTPlugIn\Open303VST.h" />
+		<Unit filename="..\..\Source\VSTPlugIn\StringConversions.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Open303" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug Win32">
+				<Option output="Open303" prefix_auto="1" extension_auto="1" />
+				<Option object_output="Debug Win32" />
+				<Option type="3" />
+				<Option compiler="gcc" />
+				<Option createDefFile="1" />
+				<Option createStaticLib="1" />
+				<Compiler>
+					<Add option="-DWIN32" />
+					<Add option="-D_DEBUG" />
+					<Add option="-D_WINDOWS" />
+					<Add option="-D_USRDLL" />
+					<Add option="-DVSTXSYNTH_EXPORTS" />
+					<Add option="-D_CRT_SECURE_NO_DEPRECATE=1" />
+					<Add option="-W" />
+					<Add option="-g" />
+					<Add option="-O0" />
+					<Add directory="..\..\..\..\.." />
+					<Add directory="D:\Programming\CollaborationProjects\Open303\Open303_r5\Build\VisualStudio2008\..\..\Libraries\vstsdk2.4" />
+				</Compiler>
+				<ResourceCompiler>
+					<Add directory="..\..\..\..\.." />
+					<Add directory="D:\Programming\CollaborationProjects\Open303\Open303_r5\Build\VisualStudio2008\..\..\Libraries\vstsdk2.4" />
+				</ResourceCompiler>
+			</Target>
+			<Target title="Release Win32">
+				<Option output="Open303" prefix_auto="1" extension_auto="1" />
+				<Option object_output="Release Win32" />
+				<Option type="3" />
+				<Option compiler="gcc" />
+				<Option createDefFile="1" />
+				<Option createStaticLib="1" />
+				<Compiler>
+					<Add option="-DWIN32" />
+					<Add option="-DNDEBUG" />
+					<Add option="-D_WINDOWS" />
+					<Add option="-D_USRDLL" />
+					<Add option="-DVSTXSYNTH_EXPORTS" />
+					<Add option="-D_CRT_SECURE_NO_DEPRECATE=1" />
+					<Add option="-W" />
+					<Add option="-O2" />
+					<Add directory="..\..\..\..\.." />
+					<Add directory="D:\Programming\CollaborationProjects\Open303\Open303_r5\Build\VisualStudio2008\..\..\Libraries\vstsdk2.4" />
+				</Compiler>
+				<ResourceCompiler>
+					<Add directory="..\..\..\..\.." />
+					<Add directory="D:\Programming\CollaborationProjects\Open303\Open303_r5\Build\VisualStudio2008\..\..\Libraries\vstsdk2.4" />
+				</ResourceCompiler>
+			</Target>
+			<Target title="Debug x64">
+				<Option output="Open303" prefix_auto="1" extension_auto="1" />
+				<Option object_output="Win32\Debug x64" />
+				<Option type="3" />
+				<Option compiler="gcc" />
+				<Option createDefFile="1" />
+				<Option createStaticLib="1" />
+				<Compiler>
+					<Add option="-DWIN32" />
+					<Add option="-D_DEBUG" />
+					<Add option="-D_WINDOWS" />
+					<Add option="-D_USRDLL" />
+					<Add option="-DVSTXSYNTH_EXPORTS" />
+					<Add option="-DVST_64BIT_PLATFORM=1" />
+					<Add option="-D_CRT_SECURE_NO_DEPRECATE=1" />
+					<Add option="-W" />
+					<Add option="-O0" />
+					<Add directory="..\..\..\..\.." />
+				</Compiler>
+				<ResourceCompiler>
+					<Add directory="..\..\..\..\.." />
+				</ResourceCompiler>
+			</Target>
+			<Target title="Release x64">
+				<Option output="Open303" prefix_auto="1" extension_auto="1" />
+				<Option object_output="Win32\Release x64" />
+				<Option type="3" />
+				<Option compiler="gcc" />
+				<Option createDefFile="1" />
+				<Option createStaticLib="1" />
+				<Compiler>
+					<Add option="-DWIN32" />
+					<Add option="-DNDEBUG" />
+					<Add option="-D_WINDOWS" />
+					<Add option="-D_USRDLL" />
+					<Add option="-DVSTXSYNTH_EXPORTS" />
+					<Add option="-DVST_64BIT_PLATFORM=1" />
+					<Add option="-D_CRT_SECURE_NO_DEPRECATE=1" />
+					<Add option="-W" />
+					<Add directory="..\..\..\..\.." />
+				</Compiler>
+				<ResourceCompiler>
+					<Add directory="..\..\..\..\.." />
+				</ResourceCompiler>
+			</Target>
+		</Build>
+		<Unit filename="..\Tweaks.txt" />
+		<Unit filename="..\..\Source\VSTPlugIn\Open303VST.cpp" />
+		<Unit filename="..\..\Source\VSTPlugIn\Open303VST.h" />
+		<Unit filename="..\..\Source\DSPCode\GlobalDefinitions.h" />
+		<Unit filename="..\..\Source\DSPCode\GlobalFunctions.cpp" />
+		<Unit filename="..\..\Source\DSPCode\GlobalFunctions.h" />
+		<Unit filename="..\..\Source\DSPCode\rosic_AcidPattern.cpp" />
+		<Unit filename="..\..\Source\DSPCode\rosic_AcidPattern.h" />
+		<Unit filename="..\..\Source\DSPCode\rosic_AcidSequencer.cpp" />
+		<Unit filename="..\..\Source\DSPCode\rosic_AcidSequencer.h" />
+		<Unit filename="..\..\Source\DSPCode\rosic_AnalogEnvelope.cpp" />
+		<Unit filename="..\..\Source\DSPCode\rosic_AnalogEnvelope.h" />
+		<Unit filename="..\..\Source\DSPCode\rosic_BiquadFilter.cpp" />
+		<Unit filename="..\..\Source\DSPCode\rosic_BiquadFilter.h" />
+		<Unit filename="..\..\Source\DSPCode\rosic_BlendOscillator.cpp" />
+		<Unit filename="..\..\Source\DSPCode\rosic_BlendOscillator.h" />
+		<Unit filename="..\..\Source\DSPCode\rosic_Complex.cpp" />
+		<Unit filename="..\..\Source\DSPCode\rosic_Complex.h" />
+		<Unit filename="..\..\Source\DSPCode\rosic_DecayEnvelope.cpp" />
+		<Unit filename="..\..\Source\DSPCode\rosic_DecayEnvelope.h" />
+		<Unit filename="..\..\Source\DSPCode\rosic_EllipticQuarterBandFilter.cpp" />
+		<Unit filename="..\..\Source\DSPCode\rosic_EllipticQuarterBandFilter.h" />
+		<Unit filename="..\..\Source\DSPCode\rosic_FourierTransformerRadix2.cpp" />
+		<Unit filename="..\..\Source\DSPCode\rosic_FourierTransformerRadix2.h" />
+		<Unit filename="..\..\Source\DSPCode\rosic_FunctionTemplates.cpp" />
+		<Unit filename="..\..\Source\DSPCode\rosic_FunctionTemplates.h" />
+		<Unit filename="..\..\Source\DSPCode\rosic_LeakyIntegrator.cpp" />
+		<Unit filename="..\..\Source\DSPCode\rosic_LeakyIntegrator.h" />
+		<Unit filename="..\..\Source\DSPCode\rosic_MidiNoteEvent.cpp" />
+		<Unit filename="..\..\Source\DSPCode\rosic_MidiNoteEvent.h" />
+		<Unit filename="..\..\Source\DSPCode\rosic_MipMappedWaveTable.cpp" />
+		<Unit filename="..\..\Source\DSPCode\rosic_MipMappedWaveTable.h" />
+		<Unit filename="..\..\Source\DSPCode\rosic_NumberManipulations.cpp" />
+		<Unit filename="..\..\Source\DSPCode\rosic_NumberManipulations.h" />
+		<Unit filename="..\..\Source\DSPCode\rosic_OnePoleFilter.cpp" />
+		<Unit filename="..\..\Source\DSPCode\rosic_OnePoleFilter.h" />
+		<Unit filename="..\..\Source\DSPCode\rosic_Open303.cpp" />
+		<Unit filename="..\..\Source\DSPCode\rosic_Open303.h" />
+		<Unit filename="..\..\Source\DSPCode\rosic_RealFunctions.cpp" />
+		<Unit filename="..\..\Source\DSPCode\rosic_RealFunctions.h" />
+		<Unit filename="..\..\Source\DSPCode\rosic_TeeBeeFilter.cpp" />
+		<Unit filename="..\..\Source\DSPCode\rosic_TeeBeeFilter.h" />
+		<Unit filename="..\..\Libraries\vstsdk2.4\pluginterfaces\vst2.x\aeffect.h" />
+		<Unit filename="..\..\Libraries\vstsdk2.4\pluginterfaces\vst2.x\aeffectx.h" />
+		<Unit filename="..\..\Libraries\vstsdk2.4\public.sdk\source\vst2.x\aeffeditor.h" />
+		<Unit filename="..\..\Libraries\vstsdk2.4\public.sdk\source\vst2.x\audioeffect.cpp" />
+		<Unit filename="..\..\Libraries\vstsdk2.4\public.sdk\source\vst2.x\audioeffect.h" />
+		<Unit filename="..\..\Libraries\vstsdk2.4\public.sdk\source\vst2.x\audioeffectx.cpp" />
+		<Unit filename="..\..\Libraries\vstsdk2.4\public.sdk\source\vst2.x\audioeffectx.h" />
+		<Unit filename="..\..\Libraries\vstsdk2.4\pluginterfaces\vst2.x\vstfxstore.h" />
+		<Unit filename="..\..\Libraries\vstsdk2.4\public.sdk\source\vst2.x\vstplugmain.cpp" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

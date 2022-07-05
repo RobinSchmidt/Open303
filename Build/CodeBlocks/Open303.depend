@@ -1,0 +1,189 @@
+# depslib dependency file v1.0
+1256315264 source:d:\programming\collaborationprojects\open303\open303_r5\source\dspcode\rosic_realfunctions.cpp
+	"rosic_RealFunctions.h"
+
+1271960317 d:\programming\collaborationprojects\open303\open303_r5\source\dspcode\rosic_realfunctions.h
+	<math.h>
+	<stdlib.h>
+	"GlobalFunctions.h"
+	"rosic_NumberManipulations.h"
+
+1256315264 d:\programming\collaborationprojects\open303\open303_r5\source\dspcode\globalfunctions.h
+	<math.h>
+	<stdlib.h>
+	"GlobalDefinitions.h"
+
+1271960851 d:\programming\collaborationprojects\open303\open303_r5\source\dspcode\globaldefinitions.h
+	<float.h>
+
+1271960486 d:\programming\collaborationprojects\open303\open303_r5\source\dspcode\rosic_numbermanipulations.h
+	"GlobalDefinitions.h"
+	<math.h>
+
+1256315264 source:d:\programming\collaborationprojects\open303\open303_r5\source\dspcode\rosic_numbermanipulations.cpp
+	"rosic_NumberManipulations.h"
+
+1256315264 source:d:\programming\collaborationprojects\open303\open303_r5\source\dspcode\rosic_functiontemplates.cpp
+	"rosic_FunctionTemplates.h"
+
+1271960405 d:\programming\collaborationprojects\open303\open303_r5\source\dspcode\rosic_functiontemplates.h
+	"rosic_RealFunctions.h"
+	<algorithm>
+
+1271960984 source:d:\programming\collaborationprojects\open303\open303_r5\source\dspcode\rosic_open303.cpp
+	"rosic_Open303.h"
+
+1258100254 d:\programming\collaborationprojects\open303\open303_r5\source\dspcode\rosic_open303.h
+	"rosic_MidiNoteEvent.h"
+	"rosic_BlendOscillator.h"
+	"rosic_BiquadFilter.h"
+	"rosic_TeeBeeFilter.h"
+	"rosic_AnalogEnvelope.h"
+	"rosic_DecayEnvelope.h"
+	"rosic_LeakyIntegrator.h"
+	"rosic_EllipticQuarterBandFilter.h"
+	"rosic_AcidSequencer.h"
+	<list>
+
+1271961063 d:\programming\collaborationprojects\open303\open303_r5\source\dspcode\rosic_midinoteevent.h
+
+1258100208 d:\programming\collaborationprojects\open303\open303_r5\source\dspcode\rosic_blendoscillator.h
+	"rosic_MipMappedWaveTable.h"
+
+1258100135 d:\programming\collaborationprojects\open303\open303_r5\source\dspcode\rosic_mipmappedwavetable.h
+	"rosic_FunctionTemplates.h"
+	"rosic_FourierTransformerRadix2.h"
+
+1256315264 d:\programming\collaborationprojects\open303\open303_r5\source\dspcode\rosic_fouriertransformerradix2.h
+	<stdio.h>
+	"rosic_Complex.h"
+	"rosic_RealFunctions.h"
+
+1260805766 d:\programming\collaborationprojects\open303\open303_r5\source\dspcode\rosic_complex.h
+	"rosic_RealFunctions.h"
+
+1256376058 d:\programming\collaborationprojects\open303\open303_r5\source\dspcode\rosic_biquadfilter.h
+	"rosic_RealFunctions.h"
+
+1256324674 d:\programming\collaborationprojects\open303\open303_r5\source\dspcode\rosic_teebeefilter.h
+	<stdlib.h>
+	"rosic_OnePoleFilter.h"
+
+1256315265 d:\programming\collaborationprojects\open303\open303_r5\source\dspcode\rosic_onepolefilter.h
+	"rosic_RealFunctions.h"
+
+1256315265 d:\programming\collaborationprojects\open303\open303_r5\source\dspcode\rosic_analogenvelope.h
+	"rosic_RealFunctions.h"
+
+1256315265 d:\programming\collaborationprojects\open303\open303_r5\source\dspcode\rosic_decayenvelope.h
+	"rosic_RealFunctions.h"
+
+1256315264 d:\programming\collaborationprojects\open303\open303_r5\source\dspcode\rosic_leakyintegrator.h
+	"rosic_RealFunctions.h"
+
+1256315264 d:\programming\collaborationprojects\open303\open303_r5\source\dspcode\rosic_ellipticquarterbandfilter.h
+	<string.h>
+	"GlobalDefinitions.h"
+
+1256315264 d:\programming\collaborationprojects\open303\open303_r5\source\dspcode\rosic_acidsequencer.h
+	"rosic_AcidPattern.h"
+
+1266352322 d:\programming\collaborationprojects\open303\open303_r5\source\dspcode\rosic_acidpattern.h
+	"rosic_RealFunctions.h"
+	"rosic_FunctionTemplates.h"
+
+1256315264 source:d:\programming\collaborationprojects\open303\open303_r5\source\dspcode\globalfunctions.cpp
+	"GlobalFunctions.h"
+
+1256315265 source:d:\programming\collaborationprojects\open303\open303_r5\source\dspcode\fft4g.c
+	<math.h>
+
+1271960509 source:d:\programming\collaborationprojects\open303\open303_r5\source\dspcode\rosic_acidpattern.cpp
+	"rosic_AcidPattern.h"
+
+1271960529 source:d:\programming\collaborationprojects\open303\open303_r5\source\dspcode\rosic_acidsequencer.cpp
+	"rosic_AcidSequencer.h"
+
+1271960540 source:d:\programming\collaborationprojects\open303\open303_r5\source\dspcode\rosic_analogenvelope.cpp
+	"rosic_AnalogEnvelope.h"
+
+1256376048 source:d:\programming\collaborationprojects\open303\open303_r5\source\dspcode\rosic_biquadfilter.cpp
+	"rosic_BiquadFilter.h"
+
+1271960562 source:d:\programming\collaborationprojects\open303\open303_r5\source\dspcode\rosic_blendoscillator.cpp
+	"rosic_BlendOscillator.h"
+
+1271960606 source:d:\programming\collaborationprojects\open303\open303_r5\source\dspcode\rosic_complex.cpp
+	"rosic_Complex.h"
+
+1256315264 source:d:\programming\collaborationprojects\open303\open303_r5\source\dspcode\rosic_decayenvelope.cpp
+	"rosic_DecayEnvelope.h"
+
+1256315265 source:d:\programming\collaborationprojects\open303\open303_r5\source\dspcode\rosic_ellipticquarterbandfilter.cpp
+	"rosic_EllipticQuarterBandFilter.h"
+
+1256315265 source:d:\programming\collaborationprojects\open303\open303_r5\source\dspcode\rosic_fouriertransformerradix2.cpp
+	"rosic_FourierTransformerRadix2.h"
+	"fft4g.c"
+
+1256315265 d:\programming\collaborationprojects\open303\open303_r5\source\dspcode\fft4g.c
+	<math.h>
+
+1256315265 source:d:\programming\collaborationprojects\open303\open303_r5\source\dspcode\rosic_leakyintegrator.cpp
+	"rosic_LeakyIntegrator.h"
+
+1271960900 source:d:\programming\collaborationprojects\open303\open303_r5\source\dspcode\rosic_midinoteevent.cpp
+	"rosic_MidiNoteEvent.h"
+
+1271960940 source:d:\programming\collaborationprojects\open303\open303_r5\source\dspcode\rosic_mipmappedwavetable.cpp
+	"rosic_MipMappedWaveTable.h"
+
+1256315264 source:d:\programming\collaborationprojects\open303\open303_r5\source\dspcode\rosic_onepolefilter.cpp
+	"rosic_OnePoleFilter.h"
+
+1271961125 source:d:\programming\collaborationprojects\open303\open303_r5\source\dspcode\rosic_teebeefilter.cpp
+	"rosic_TeeBeeFilter.h"
+
+1256315265 source:d:\programming\collaborationprojects\open303\open303_r5\source\vstplugin\stringconversions.c
+	<stdio.h>
+	<math.h>
+	"string.h"
+
+1271962061 source:d:\programming\collaborationprojects\open303\open303_r5\source\vstplugin\open303vst.cpp
+	"Open303VST.h"
+
+1271961796 d:\programming\collaborationprojects\open303\open303_r5\source\vstplugin\open303vst.h
+	"public.sdk/source/vst2.x/audioeffectx.h"
+	"../DSPCode/rosic_Open303.h"
+
+1137047732 d:\programming\collaborationprojects\open303\open303_r5\libraries\vstsdk2.4\public.sdk\source\vst2.x\audioeffectx.h
+	"audioeffect.h"
+	"pluginterfaces/vst2.x/aeffectx.h"
+
+1137047732 d:\programming\collaborationprojects\open303\open303_r5\libraries\vstsdk2.4\public.sdk\source\vst2.x\audioeffect.h
+	"pluginterfaces/vst2.x/aeffect.h"
+
+1137047696 d:\programming\collaborationprojects\open303\open303_r5\libraries\vstsdk2.4\pluginterfaces\vst2.x\aeffect.h
+	<string.h>
+
+1137047696 d:\programming\collaborationprojects\open303\open303_r5\libraries\vstsdk2.4\pluginterfaces\vst2.x\aeffectx.h
+	"aeffect.h"
+
+1133154206 source:d:\programming\collaborationprojects\open303\open303_r5\libraries\vstsdk2.4\public.sdk\source\vst2.x\audioeffect.cpp
+	"audioeffect.h"
+	"aeffeditor.h"
+	<stddef.h>
+	<stdio.h>
+	<math.h>
+
+1137047732 d:\programming\collaborationprojects\open303\open303_r5\libraries\vstsdk2.4\public.sdk\source\vst2.x\aeffeditor.h
+	"audioeffectx.h"
+
+1137047732 source:d:\programming\collaborationprojects\open303\open303_r5\libraries\vstsdk2.4\public.sdk\source\vst2.x\audioeffectx.cpp
+	"audioeffectx.h"
+	"aeffeditor.h"
+
+1137047732 source:d:\programming\collaborationprojects\open303\open303_r5\libraries\vstsdk2.4\public.sdk\source\vst2.x\vstplugmain.cpp
+	"audioeffect.h"
+	<windows.h>
+

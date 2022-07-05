@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<ActiveTarget name="Debug" />
+	<File name="..\..\Libraries\vstsdk2.4\pluginterfaces\vst2.x\aeffect.h" open="1" top="1" tabpos="1">
+		<Cursor position="1062" topLine="17" />
+	</File>
+	<File name="..\..\Libraries\vstsdk2.4\pluginterfaces\vst2.x\aeffectx.h" open="1" top="0" tabpos="2">
+		<Cursor position="974" topLine="14" />
+	</File>
+	<File name="..\..\Libraries\vstsdk2.4\public.sdk\source\vst2.x\audioeffect.h" open="0" top="0" tabpos="6">
+		<Cursor position="574" topLine="0" />
+	</File>
+	<File name="..\..\Source\DSPCode\GlobalDefinitions.h" open="0" top="0" tabpos="0">
+		<Cursor position="2980" topLine="76" />
+	</File>
+	<File name="..\..\Source\DSPCode\GlobalFunctions.h" open="0" top="0" tabpos="0">
+		<Cursor position="9406" topLine="262" />
+	</File>
+	<File name="..\..\Source\DSPCode\rosic_AcidPattern.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="1259" topLine="13" />
+	</File>
+	<File name="..\..\Source\DSPCode\rosic_AcidSequencer.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="2453" topLine="59" />
+	</File>
+	<File name="..\..\Source\DSPCode\rosic_AnalogEnvelope.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="4579" topLine="153" />
+	</File>
+	<File name="..\..\Source\DSPCode\rosic_BiquadFilter.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="533" topLine="149" />
+	</File>
+	<File name="..\..\Source\DSPCode\rosic_BlendOscillator.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="2288" topLine="45" />
+	</File>
+	<File name="..\..\Source\DSPCode\rosic_Complex.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="1773" topLine="55" />
+	</File>
+	<File name="..\..\Source\DSPCode\rosic_FunctionTemplates.h" open="0" top="0" tabpos="0">
+		<Cursor position="21142" topLine="636" />
+	</File>
+	<File name="..\..\Source\DSPCode\rosic_MidiNoteEvent.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="1273" topLine="24" />
+	</File>
+	<File name="..\..\Source\DSPCode\rosic_MidiNoteEvent.h" open="0" top="0" tabpos="5">
+		<Cursor position="504" topLine="1" />
+	</File>
+	<File name="..\..\Source\DSPCode\rosic_MipMappedWaveTable.cpp" open="0" top="0" tabpos="1">
+		<Cursor position="6185" topLine="200" />
+	</File>
+	<File name="..\..\Source\DSPCode\rosic_NumberManipulations.cpp" open="0" top="0" tabpos="2">
+		<Cursor position="74" topLine="0" />
+	</File>
+	<File name="..\..\Source\DSPCode\rosic_NumberManipulations.h" open="0" top="0" tabpos="0">
+		<Cursor position="818" topLine="18" />
+	</File>
+	<File name="..\..\Source\DSPCode\rosic_OnePoleFilter.cpp" open="0" top="0" tabpos="3">
+		<Cursor position="0" topLine="0" />
+	</File>
+	<File name="..\..\Source\DSPCode\rosic_Open303.cpp" open="0" top="0" tabpos="4">
+		<Cursor position="5431" topLine="178" />
+	</File>
+	<File name="..\..\Source\DSPCode\rosic_RealFunctions.h" open="0" top="0" tabpos="0">
+		<Cursor position="3362" topLine="103" />
+	</File>
+	<File name="..\..\Source\DSPCode\rosic_TeeBeeFilter.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="2995" topLine="48" />
+	</File>
+	<File name="..\..\Source\VSTPlugIn\Open303VST.cpp" open="0" top="0" tabpos="7">
+		<Cursor position="2942" topLine="46" />
+	</File>
+	<File name="..\..\Source\VSTPlugIn\Open303VST.h" open="0" top="0" tabpos="8">
+		<Cursor position="136" topLine="0" />
+	</File>
+	<File name="..\..\Source\VSTPlugIn\StringConversions.c" open="0" top="0" tabpos="0">
+		<Cursor position="238" topLine="0" />
+	</File>
+</CodeBlocks_layout_file>
