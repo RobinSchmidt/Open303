@@ -1,5 +1,7 @@
 Build/VisualStudio2008/.vs
 Build/VisualStudio2019/.vs
+Build/VisualStudio2019/Debug
+Build/VisualStudio2019/Release
 Libraries/vstsdk2.4/pluginterfaces
 Libraries/vstsdk2.4/public.sdk
 
