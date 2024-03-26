@@ -1,1 +1,6 @@
 Build/VisualStudio2008/.vs
+Build/VisualStudio2019/.vs
+Libraries/vstsdk2.4/pluginterfaces
+Libraries/vstsdk2.4/public.sdk
+
+

@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{863D9E7E-5322-49C8-89BA-A761DC0EE438}</ProjectGuid>
+    <RootNamespace>Open303</RootNamespace>
+    <Keyword>Win32Proj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>NotSet</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>NotSet</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>NotSet</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>NotSet</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>16.0.28916.169</_ProjectFileVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir>$(Configuration)\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir>$(Configuration)\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <OutDir>$(SolutionDir)$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>$(Platform)\$(Configuration)\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <OutDir>$(SolutionDir)$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>$(Platform)\$(Configuration)\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>../../../../..;$(ProjectDir)\..\..\Libraries\vstsdk2.4;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USRDLL;VSTXSYNTH_EXPORTS;_CRT_SECURE_NO_DEPRECATE=1;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <FloatingPointModel>Fast</FloatingPointModel>
+      <PrecompiledHeader />
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <ModuleDefinitionFile>$(ProjectDir)/../../Libraries/vstsdk2.4/public.sdk/samples/vst2.x/win/vstplug.def</ModuleDefinitionFile>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention />
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <AdditionalIncludeDirectories>../../../../..;$(ProjectDir)\..\..\Libraries\vstsdk2.4;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_USRDLL;VSTXSYNTH_EXPORTS;_CRT_SECURE_NO_DEPRECATE=1;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StringPooling>true</StringPooling>
+      <MinimalRebuild>true</MinimalRebuild>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <FloatingPointModel>Fast</FloatingPointModel>
+      <PrecompiledHeader />
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat />
+    </ClCompile>
+    <Link>
+      <ModuleDefinitionFile>$(ProjectDir)/../../Libraries/vstsdk2.4/public.sdk/samples/vst2.x/win/vstplug.def</ModuleDefinitionFile>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention />
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <TargetEnvironment>X64</TargetEnvironment>
+    </Midl>
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>../../../../..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USRDLL;VSTXSYNTH_EXPORTS;VST_64BIT_PLATFORM=1;_CRT_SECURE_NO_DEPRECATE=1;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <PrecompiledHeader />
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <ModuleDefinitionFile>../../win/vstplug.def</ModuleDefinitionFile>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <TargetMachine>MachineX64</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <TargetEnvironment>X64</TargetEnvironment>
+    </Midl>
+    <ClCompile>
+      <AdditionalIncludeDirectories>../../../../..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_USRDLL;VSTXSYNTH_EXPORTS;VST_64BIT_PLATFORM=1;_CRT_SECURE_NO_DEPRECATE=1;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <PrecompiledHeader />
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <ModuleDefinitionFile>../../win/vstplug.def</ModuleDefinitionFile>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <TargetMachine>MachineX64</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Libraries\vstsdk2.4\public.sdk\source\vst2.x\audioeffect.cpp" />
+    <ClCompile Include="..\..\Libraries\vstsdk2.4\public.sdk\source\vst2.x\audioeffectx.cpp" />
+    <ClCompile Include="..\..\Libraries\vstsdk2.4\public.sdk\source\vst2.x\vstplugmain.cpp" />
+    <ClCompile Include="..\..\Source\DSPCode\GlobalFunctions.cpp" />
+    <ClCompile Include="..\..\Source\DSPCode\rosic_AcidPattern.cpp" />
+    <ClCompile Include="..\..\Source\DSPCode\rosic_AcidSequencer.cpp" />
+    <ClCompile Include="..\..\Source\DSPCode\rosic_AnalogEnvelope.cpp" />
+    <ClCompile Include="..\..\Source\DSPCode\rosic_BiquadFilter.cpp" />
+    <ClCompile Include="..\..\Source\DSPCode\rosic_BlendOscillator.cpp" />
+    <ClCompile Include="..\..\Source\DSPCode\rosic_Complex.cpp" />
+    <ClCompile Include="..\..\Source\DSPCode\rosic_DecayEnvelope.cpp" />
+    <ClCompile Include="..\..\Source\DSPCode\rosic_EllipticQuarterBandFilter.cpp" />
+    <ClCompile Include="..\..\Source\DSPCode\rosic_FourierTransformerRadix2.cpp" />
+    <ClCompile Include="..\..\Source\DSPCode\rosic_FunctionTemplates.cpp" />
+    <ClCompile Include="..\..\Source\DSPCode\rosic_LeakyIntegrator.cpp" />
+    <ClCompile Include="..\..\Source\DSPCode\rosic_MidiNoteEvent.cpp" />
+    <ClCompile Include="..\..\Source\DSPCode\rosic_MipMappedWaveTable.cpp" />
+    <ClCompile Include="..\..\Source\DSPCode\rosic_NumberManipulations.cpp" />
+    <ClCompile Include="..\..\Source\DSPCode\rosic_OnePoleFilter.cpp" />
+    <ClCompile Include="..\..\Source\DSPCode\rosic_Open303.cpp" />
+    <ClCompile Include="..\..\Source\DSPCode\rosic_RealFunctions.cpp" />
+    <ClCompile Include="..\..\Source\DSPCode\rosic_TeeBeeFilter.cpp" />
+    <ClCompile Include="..\..\Source\VSTPlugIn\Open303VST.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Libraries\vstsdk2.4\pluginterfaces\vst2.x\aeffect.h" />
+    <ClInclude Include="..\..\Libraries\vstsdk2.4\pluginterfaces\vst2.x\aeffectx.h" />
+    <ClInclude Include="..\..\Libraries\vstsdk2.4\pluginterfaces\vst2.x\vstfxstore.h" />
+    <ClInclude Include="..\..\Libraries\vstsdk2.4\public.sdk\source\vst2.x\aeffeditor.h" />
+    <ClInclude Include="..\..\Libraries\vstsdk2.4\public.sdk\source\vst2.x\audioeffect.h" />
+    <ClInclude Include="..\..\Libraries\vstsdk2.4\public.sdk\source\vst2.x\audioeffectx.h" />
+    <ClInclude Include="..\..\Source\DSPCode\GlobalDefinitions.h" />
+    <ClInclude Include="..\..\Source\DSPCode\GlobalFunctions.h" />
+    <ClInclude Include="..\..\Source\DSPCode\rosic_AcidPattern.h" />
+    <ClInclude Include="..\..\Source\DSPCode\rosic_AcidSequencer.h" />
+    <ClInclude Include="..\..\Source\DSPCode\rosic_AnalogEnvelope.h" />
+    <ClInclude Include="..\..\Source\DSPCode\rosic_BiquadFilter.h" />
+    <ClInclude Include="..\..\Source\DSPCode\rosic_BlendOscillator.h" />
+    <ClInclude Include="..\..\Source\DSPCode\rosic_Complex.h" />
+    <ClInclude Include="..\..\Source\DSPCode\rosic_DecayEnvelope.h" />
+    <ClInclude Include="..\..\Source\DSPCode\rosic_EllipticQuarterBandFilter.h" />
+    <ClInclude Include="..\..\Source\DSPCode\rosic_FourierTransformerRadix2.h" />
+    <ClInclude Include="..\..\Source\DSPCode\rosic_FunctionTemplates.h" />
+    <ClInclude Include="..\..\Source\DSPCode\rosic_LeakyIntegrator.h" />
+    <ClInclude Include="..\..\Source\DSPCode\rosic_MidiNoteEvent.h" />
+    <ClInclude Include="..\..\Source\DSPCode\rosic_MipMappedWaveTable.h" />
+    <ClInclude Include="..\..\Source\DSPCode\rosic_NumberManipulations.h" />
+    <ClInclude Include="..\..\Source\DSPCode\rosic_OnePoleFilter.h" />
+    <ClInclude Include="..\..\Source\DSPCode\rosic_Open303.h" />
+    <ClInclude Include="..\..\Source\DSPCode\rosic_RealFunctions.h" />
+    <ClInclude Include="..\..\Source\DSPCode\rosic_TeeBeeFilter.h" />
+    <ClInclude Include="..\..\Source\VSTPlugIn\Open303VST.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\Tweaks.txt" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

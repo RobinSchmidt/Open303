@@ -1,0 +1,171 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="VST PlugIn">
+      <UniqueIdentifier>{94076005-8c00-4632-bb1a-22d14a3731fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DSP Code">
+      <UniqueIdentifier>{002baddd-f737-4e72-b858-1a612d0ded53}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="VST-SDK">
+      <UniqueIdentifier>{7111e7ee-270f-4fda-8fb1-e275c637f3d1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\VSTPlugIn\Open303VST.cpp">
+      <Filter>VST PlugIn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\DSPCode\GlobalFunctions.cpp">
+      <Filter>DSP Code</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\DSPCode\rosic_AcidPattern.cpp">
+      <Filter>DSP Code</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\DSPCode\rosic_AcidSequencer.cpp">
+      <Filter>DSP Code</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\DSPCode\rosic_AnalogEnvelope.cpp">
+      <Filter>DSP Code</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\DSPCode\rosic_BiquadFilter.cpp">
+      <Filter>DSP Code</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\DSPCode\rosic_BlendOscillator.cpp">
+      <Filter>DSP Code</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\DSPCode\rosic_Complex.cpp">
+      <Filter>DSP Code</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\DSPCode\rosic_DecayEnvelope.cpp">
+      <Filter>DSP Code</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\DSPCode\rosic_EllipticQuarterBandFilter.cpp">
+      <Filter>DSP Code</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\DSPCode\rosic_FourierTransformerRadix2.cpp">
+      <Filter>DSP Code</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\DSPCode\rosic_FunctionTemplates.cpp">
+      <Filter>DSP Code</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\DSPCode\rosic_LeakyIntegrator.cpp">
+      <Filter>DSP Code</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\DSPCode\rosic_MidiNoteEvent.cpp">
+      <Filter>DSP Code</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\DSPCode\rosic_MipMappedWaveTable.cpp">
+      <Filter>DSP Code</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\DSPCode\rosic_NumberManipulations.cpp">
+      <Filter>DSP Code</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\DSPCode\rosic_OnePoleFilter.cpp">
+      <Filter>DSP Code</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\DSPCode\rosic_Open303.cpp">
+      <Filter>DSP Code</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\DSPCode\rosic_RealFunctions.cpp">
+      <Filter>DSP Code</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\DSPCode\rosic_TeeBeeFilter.cpp">
+      <Filter>DSP Code</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Libraries\vstsdk2.4\public.sdk\source\vst2.x\audioeffect.cpp">
+      <Filter>VST-SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Libraries\vstsdk2.4\public.sdk\source\vst2.x\audioeffectx.cpp">
+      <Filter>VST-SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Libraries\vstsdk2.4\public.sdk\source\vst2.x\vstplugmain.cpp">
+      <Filter>VST-SDK</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\VSTPlugIn\Open303VST.h">
+      <Filter>VST PlugIn</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\DSPCode\GlobalDefinitions.h">
+      <Filter>DSP Code</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\DSPCode\GlobalFunctions.h">
+      <Filter>DSP Code</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\DSPCode\rosic_AcidPattern.h">
+      <Filter>DSP Code</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\DSPCode\rosic_AcidSequencer.h">
+      <Filter>DSP Code</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\DSPCode\rosic_AnalogEnvelope.h">
+      <Filter>DSP Code</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\DSPCode\rosic_BiquadFilter.h">
+      <Filter>DSP Code</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\DSPCode\rosic_BlendOscillator.h">
+      <Filter>DSP Code</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\DSPCode\rosic_Complex.h">
+      <Filter>DSP Code</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\DSPCode\rosic_DecayEnvelope.h">
+      <Filter>DSP Code</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\DSPCode\rosic_EllipticQuarterBandFilter.h">
+      <Filter>DSP Code</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\DSPCode\rosic_FourierTransformerRadix2.h">
+      <Filter>DSP Code</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\DSPCode\rosic_FunctionTemplates.h">
+      <Filter>DSP Code</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\DSPCode\rosic_LeakyIntegrator.h">
+      <Filter>DSP Code</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\DSPCode\rosic_MidiNoteEvent.h">
+      <Filter>DSP Code</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\DSPCode\rosic_MipMappedWaveTable.h">
+      <Filter>DSP Code</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\DSPCode\rosic_NumberManipulations.h">
+      <Filter>DSP Code</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\DSPCode\rosic_OnePoleFilter.h">
+      <Filter>DSP Code</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\DSPCode\rosic_Open303.h">
+      <Filter>DSP Code</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\DSPCode\rosic_RealFunctions.h">
+      <Filter>DSP Code</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\DSPCode\rosic_TeeBeeFilter.h">
+      <Filter>DSP Code</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Libraries\vstsdk2.4\pluginterfaces\vst2.x\aeffect.h">
+      <Filter>VST-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Libraries\vstsdk2.4\pluginterfaces\vst2.x\aeffectx.h">
+      <Filter>VST-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Libraries\vstsdk2.4\public.sdk\source\vst2.x\aeffeditor.h">
+      <Filter>VST-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Libraries\vstsdk2.4\public.sdk\source\vst2.x\audioeffect.h">
+      <Filter>VST-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Libraries\vstsdk2.4\public.sdk\source\vst2.x\audioeffectx.h">
+      <Filter>VST-SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Libraries\vstsdk2.4\pluginterfaces\vst2.x\vstfxstore.h">
+      <Filter>VST-SDK</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\Tweaks.txt" />
+  </ItemGroup>
+</Project>
