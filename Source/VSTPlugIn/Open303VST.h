@@ -96,7 +96,7 @@ private:
   void noteOn(VstInt32 note, VstInt32 velocity, VstInt32 delta);
 
   /** Converts the data bytes of a MIDI pitchwheel message into a value in semitones. */
-  double convertToPitch(unsigned char highByte,unsigned char lowByte);
+  double convertToPitch(unsigned char highByte, unsigned char lowByte);
 
   static const int numOutputs  = 2;
   static const int numPrograms = 128;

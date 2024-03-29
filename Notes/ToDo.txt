@@ -1,0 +1,4 @@
+
+-Implement CLAP version
+-Avoid memory allocation in Open303VST::processEvents
+-Clean up the coding style

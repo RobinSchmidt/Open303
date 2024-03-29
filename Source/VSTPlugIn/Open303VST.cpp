@@ -6,7 +6,7 @@ AudioEffect* createEffectInstance(audioMasterCallback audioMaster)
 	return new Open303VST(audioMaster);
 }
 
-//===============================2==================================================================
+//=================================================================================================
 // class Open303VSTProgram:
 
 Open303VSTProgram::Open303VSTProgram ()
@@ -54,7 +54,7 @@ Open303VST::Open303VST(audioMasterCallback audioMaster)
 
 	if(audioMaster)
 	{
-		setNumInputs(0);	     // maybe include input for filter FM by audio input here later (DeviFish does this)...
+		setNumInputs(0);	     // maybe include input for filter FM by audio input here later (DevilFish does this)...
 		setNumOutputs(2);
 		canProcessReplacing();
 		isSynth();
@@ -145,6 +145,8 @@ VstInt32 Open303VST::processEvents (VstEvents* ev)
     delete[] eventBuffer;
     eventBuffer = NULL;
   }
+  // It is not a good idea to do memory allocations in relatime code! Use pre-allocated memory!
+  // Maybe use a std::vector and reserve in the constructor enough memory.
 
   //...and create new buffer for the new vst events
   eventBufferLength = ev->numEvents;
